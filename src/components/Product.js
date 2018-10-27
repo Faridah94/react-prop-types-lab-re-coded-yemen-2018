@@ -38,7 +38,7 @@ Product.propTypes = {
         return null;
      }
 
-      return new TypeError("${value} weight is not in the specific range");
+      return new Error("${value} weight is not in the specific range");
 
   }.isRequired
 };
