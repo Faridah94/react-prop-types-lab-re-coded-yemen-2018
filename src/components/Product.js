@@ -11,7 +11,7 @@ class Product extends React.Component {
             <li>{this.props.producer}</li>
           <li>{this.props.hasWatermark}</li>
           <li>{this.props.color.length} scoops: {this.props.color.join(', ')}</li>
-          <li> {this.props.weight</li>
+          <li> {this.props.weight}</li>
         </ul>
       </div>
     );
